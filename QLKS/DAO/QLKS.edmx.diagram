@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ca3d9d2e674444e4804ab270472fa312" Name="Diagram1">
+        <EntityTypeShape EntityType="QLKSModel.dichvu" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.hoadon" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.khachhang" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.nhanvien" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.phieudat" Width="1.5" PointX="6" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.phieuthue" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.phong" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.sudungdichvu" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLKSModel.taikhoan" Width="1.5" PointX="3" PointY="18.375" IsExpanded="true" />
+        <AssociationConnector Association="QLKSModel.FK_hoadon_nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_hoadon_phieuthue" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_phieudat_khachhang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_phieuthue_khachhang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_phieudat_nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_phieuthue_nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_taikhoan_nhanvien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_phieudat_phong" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_phieuthue_phong" ManuallyRouted="false" />
+        <AssociationConnector Association="QLKSModel.FK_sudungdichvu_phieuthue" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

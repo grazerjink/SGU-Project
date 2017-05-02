@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9CEA8B8-C488-4AEC-9E59-CF2251C1C1C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuanLiBanHang</RootNamespace>
+    <AssemblyName>QuanLiBanHang</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\ModuleHoaDon\HangHoaDTO_HD.cs" />
+    <Compile Include="Model\ModuleHoaDon\HoaDonService.cs" />
+    <Compile Include="Model\ModuleHoaDon\IHoaDonRepository.cs" />
+    <Compile Include="Model\ModuleHoaDon\IHoaDonService.cs" />
+    <Compile Include="Model\ModuleHoaDon\KhachHangDTO_HD.cs" />
+    <Compile Include="Model\ModuleKhachHang\IKhachHangRepository.cs" />
+    <Compile Include="Model\ModuleKhachHang\IKhachHangService.cs" />
+    <Compile Include="Model\ModuleKhachHang\KhachHangService.cs" />
+    <Compile Include="Model\ModuleNhaCungCap\INhaCungCapRepository.cs" />
+    <Compile Include="Model\ModuleNhaCungCap\INhaCungCapService.cs" />
+    <Compile Include="Model\ModuleNhaCungCap\NhaCungCapService.cs" />
+    <Compile Include="Model\ModuleNhanVien\INhanVienRepository.cs" />
+    <Compile Include="Model\ModuleNhanVien\INhanVienService.cs" />
+    <Compile Include="Model\ModuleNhanVien\NhanVienService.cs" />
+    <Compile Include="Model\ModulePhieuNhap\ctPhieuNhapDTO.cs" />
+    <Compile Include="Model\ModuleHoaDon\ctHoaDonDTO.cs" />
+    <Compile Include="Model\ModuleHoaDon\HoaDonDTO.cs" />
+    <Compile Include="Model\ModuleNhaCungCap\NhaCungCapDTO.cs" />
+    <Compile Include="Model\ModuleKhachHang\KhachHangDTO.cs" />
+    <Compile Include="Model\ModulePhieuNhap\IPhieuNhapRepository.cs" />
+    <Compile Include="Model\ModulePhieuNhap\IPhieuNhapService.cs" />
+    <Compile Include="Model\ModulePhieuNhap\NhaCungCapDTO_HD.cs" />
+    <Compile Include="Model\ModulePhieuNhap\PhieuNhapService.cs" />
+    <Compile Include="Model\ModuleSanPham\HangHoaDTO.cs" />
+    <Compile Include="Model\ModuleNhanVien\NhanVienDTO.cs" />
+    <Compile Include="Model\ModulePhieuNhap\PhieuNhapDTO.cs" />
+    <Compile Include="Model\ModuleHoaDon\HoaDonRepository.cs" />
+    <Compile Include="Model\ModulePhieuNhap\PhieuNhapRepository.cs" />
+    <Compile Include="Model\ModuleNhaCungCap\NhaCungCapRepository.cs" />
+    <Compile Include="Model\ModuleNhanVien\NhanVienRepository.cs" />
+    <Compile Include="Model\ModuleKhachHang\KhachHangRepository.cs" />
+    <Compile Include="Model\ModuleSanPham\ISanPhamRepository.cs" />
+    <Compile Include="Model\ModuleSanPham\ISanPhamService.cs" />
+    <Compile Include="Model\ModuleSanPham\SanPhamRepository.cs" />
+    <Compile Include="Model\ModuleSanPham\SanPhamService.cs" />
+    <Compile Include="Model\Validation\IValidationDictionary.cs" />
+    <Compile Include="Model\Validation\ModelStateDictionary.cs" />
+    <Compile Include="Model\Validation\ModelStateWrapper.cs" />
+    <Compile Include="Views\DialogToGetInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DialogToGetInfo.Designer.cs">
+      <DependentUpon>DialogToGetInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleHoaDon\hdFormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleHoaDon\hdFormEdit.Designer.cs">
+      <DependentUpon>hdFormEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleSanPham\hhFormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleSanPham\hhFormEdit.Designer.cs">
+      <DependentUpon>hhFormEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleKhachHang\khFormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleKhachHang\khFormEdit.Designer.cs">
+      <DependentUpon>khFormEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleNhaCungCap\nccFormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleNhaCungCap\nccFormEdit.Designer.cs">
+      <DependentUpon>nccFormEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleNhanVien\nvFormEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleNhanVien\nvFormEdit.Designer.cs">
+      <DependentUpon>nvFormEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\pnFormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\pnFormAdd.Designer.cs">
+      <DependentUpon>pnFormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ChucVu.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Ct_HoaDon.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Ct_PhieuNhap.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\HangHoa.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\HoaDon.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\KhachHang.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\NhaCungCap.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\NhanVien.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PhieuNhap.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\QLBHModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLBHModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\QLBHModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\QLBHModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLBHModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TaiKhoan.cs">
+      <DependentUpon>QLBHModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleNhaCungCap\nccFormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleNhaCungCap\nccFormAdd.Designer.cs">
+      <DependentUpon>nccFormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleKhachHang\khFormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleKhachHang\khFormAdd.Designer.cs">
+      <DependentUpon>khFormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleSanPham\hhFormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleSanPham\hhFormAdd.Designer.cs">
+      <DependentUpon>hhFormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleHoaDon\hdFormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleHoaDon\hdFormAdd.Designer.cs">
+      <DependentUpon>hdFormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ModuleNhanVien\nvFormAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\ModuleNhanVien\nvFormAdd.Designer.cs">
+      <DependentUpon>nvFormAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormLogin.designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormMain.designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Views\DialogToGetInfo.resx">
+      <DependentUpon>DialogToGetInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleHoaDon\hdFormEdit.resx">
+      <DependentUpon>hdFormEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleSanPham\hhFormEdit.resx">
+      <DependentUpon>hhFormEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleKhachHang\khFormEdit.resx">
+      <DependentUpon>khFormEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleNhaCungCap\nccFormEdit.resx">
+      <DependentUpon>nccFormEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleNhanVien\nvFormEdit.resx">
+      <DependentUpon>nvFormEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\pnFormAdd.resx">
+      <DependentUpon>pnFormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleNhaCungCap\nccFormAdd.resx">
+      <DependentUpon>nccFormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleKhachHang\khFormAdd.resx">
+      <DependentUpon>khFormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleSanPham\hhFormAdd.resx">
+      <DependentUpon>hhFormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleHoaDon\hdFormAdd.resx">
+      <DependentUpon>hdFormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\ModuleNhanVien\nvFormAdd.resx">
+      <DependentUpon>nvFormAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="Model\QLBHModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QLBHModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model\QLBHModel.edmx.diagram">
+      <DependentUpon>QLBHModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppData\QLBH.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AppData\QLBH_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>QLBH.mdf</DependentUpon>
+    </Content>
+    <Content Include="Model\QLBHModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLBHModel.edmx</DependentUpon>
+      <LastGenOutput>QLBHModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model\QLBHModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLBHModel.edmx</DependentUpon>
+      <LastGenOutput>QLBHModel.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\ic_edit.png" />
+    <None Include="Resources\ic_reset.png" />
+    <None Include="Resources\ic_create.png" />
+    <None Include="Resources\ic_printer.png" />
+    <None Include="Resources\ic_thongke.png" />
+    <None Include="Resources\ic_remove.png" />
+    <None Include="Resources\ic_them.png" />
+    <None Include="Resources\ic_tick.png" />
+    <None Include="Resources\ic_dangxuat.png" />
+    <None Include="Resources\ic_timkiem.png" />
+    <None Include="Resources\ic_phieunhap.png" />
+    <None Include="Resources\ic_nhanvien.png" />
+    <None Include="Resources\ic_nhacungcap.png" />
+    <None Include="Resources\ic_khachhang.png" />
+    <None Include="Resources\ic_hanghoa.png" />
+    <None Include="Resources\ic_hoadon.png" />
+    <None Include="Resources\ic_password.png" />
+    <None Include="Resources\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

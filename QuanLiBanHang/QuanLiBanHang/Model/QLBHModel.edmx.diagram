@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aec6a9ae32a24415a462a3496e2080c2" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBHModel.ChucVu" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.Ct_HoaDon" Width="1.5" PointX="10.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.Ct_PhieuNhap" Width="1.5" PointX="13.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.HangHoa" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.HoaDon" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.KhachHang" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.NhaCungCap" Width="1.5" PointX="6" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.NhanVien" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.PhieuNhap" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBHModel.TaiKhoan" Width="1.5" PointX="5.25" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="QLBHModel.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_Ct_HoaDon_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_Ct_HoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_Ct_PhieuNhap_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_Ct_PhieuNhap_PhieuNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_HoaDon_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_PhieuNhap_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_PhieuNhap_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBHModel.FK_TaiKhoan_NhanVien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

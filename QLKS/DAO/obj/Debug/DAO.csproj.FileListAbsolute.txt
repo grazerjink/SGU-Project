@@ -1,0 +1,8 @@
+E:\ProjectCSharp\QLKS\DAO\bin\Debug\DAO.dll.config
+E:\ProjectCSharp\QLKS\DAO\bin\Debug\DAO.dll
+E:\ProjectCSharp\QLKS\DAO\bin\Debug\DAO.pdb
+E:\ProjectCSharp\QLKS\DAO\bin\Debug\EntityFramework.dll
+E:\ProjectCSharp\QLKS\DAO\bin\Debug\EntityFramework.xml
+E:\ProjectCSharp\QLKS\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+E:\ProjectCSharp\QLKS\DAO\obj\Debug\DAO.dll
+E:\ProjectCSharp\QLKS\DAO\obj\Debug\DAO.pdb

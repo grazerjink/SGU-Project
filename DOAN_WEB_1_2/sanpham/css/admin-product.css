@@ -1,0 +1,174 @@
+#main-right
+{
+    height:auto;
+}
+#bottom
+{
+    clear: left;
+}
+#table-detail .checkbox
+{
+    background: #3875c6;
+    padding: 5px 5px;
+}
+#table-detail table
+{
+    border-color: white;
+}
+#table-detail td
+{
+    height: 30px;
+}
+.tieudesp
+{
+    background: #3875c6;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+.checkbox1
+{
+    text-align: center;
+}
+.hinhanh1
+{
+    padding: 5px 5px;
+}
+.hinhanh1 img
+{
+    text-align: center;
+    height: 80px;
+    width: 80px;
+}
+.sanpham
+{
+    padding: 5px 5px;
+    font-size: 18px;
+}
+#chucnang
+{
+    margin-top: 10px;
+    width: 700px;
+    text-align: right;
+}
+#chucnang a
+{
+    height: 25px;
+    padding: 2px 2px;
+    margin-left: 5px;
+    line-height: 24px;
+    border: 2px solid #3875c6;
+    border-radius: 5px;
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+#chucnang a:hover
+{
+    background: #3875c6;
+    color: white;
+}
+#themsp
+{
+    margin-bottom: 45px;
+    clear: both;
+}
+#themsp > div
+{
+    padding-left: 20px;
+    margin-top: 20px;
+    background: #3875c6;
+    height: 30px;
+    line-height: 30px;
+    width: 680px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+#themsp table
+{
+    margin-top: 10px;
+}
+#themsp input
+{
+    width: 250px;
+    height: 25px;
+    padding-left: 8px;
+}
+#themsp textarea
+{
+    width: 250px;
+    height: 100px;
+}
+.tenmuc
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+#themsp td.nutbam
+{
+    padding-right: 4px;
+    text-align: left;
+}
+#themsp .nutbam input
+{
+    width: 130px;
+    padding-right: 6px;
+    margin-left: 30px;
+    margin-top: 6px;
+    border: 2px solid #3875c6;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#themsp .nutbam input:hover
+{
+    background: #3875c6;
+    color: white;
+}
+#chucnang-thanhvien {
+    margin-left: 540px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    float: right;
+    margin-right: 150px;
+    
+}
+#chucnang-thanhvien > input 
+{
+    margin-left: 15px;
+}
+.submit
+{
+    text-align: left;
+}
+.submit input
+{
+    width: 100px;
+    padding: 4px;
+    border: 2px solid #3875c6;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit input:hover
+{
+    background: #3875c6;
+    color: white;
+}
+.submit a
+{
+    color: black;
+    width: 100px;
+    padding: 2px;
+    border: 2px solid #3875c6;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit a:hover
+{
+    background: #3875c6;
+    color: white;
+}

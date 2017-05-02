@@ -1,0 +1,9 @@
+E:\ProjectCSharp\QLKS\BUS\bin\Debug\BUS.dll
+E:\ProjectCSharp\QLKS\BUS\bin\Debug\BUS.pdb
+E:\ProjectCSharp\QLKS\BUS\bin\Debug\DAO.dll
+E:\ProjectCSharp\QLKS\BUS\bin\Debug\EntityFramework.dll
+E:\ProjectCSharp\QLKS\BUS\bin\Debug\DAO.pdb
+E:\ProjectCSharp\QLKS\BUS\bin\Debug\EntityFramework.xml
+E:\ProjectCSharp\QLKS\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+E:\ProjectCSharp\QLKS\BUS\obj\Debug\BUS.dll
+E:\ProjectCSharp\QLKS\BUS\obj\Debug\BUS.pdb

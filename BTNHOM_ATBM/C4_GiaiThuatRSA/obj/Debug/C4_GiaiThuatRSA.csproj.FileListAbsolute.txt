@@ -1,0 +1,9 @@
+E:\ProjectCSharp\C4_GiaiThuatRSA\C4_GiaiThuatRSA\bin\Debug\C4_GiaiThuatRSA.exe.config
+E:\ProjectCSharp\C4_GiaiThuatRSA\C4_GiaiThuatRSA\bin\Debug\C4_GiaiThuatRSA.exe
+E:\ProjectCSharp\C4_GiaiThuatRSA\C4_GiaiThuatRSA\bin\Debug\C4_GiaiThuatRSA.pdb
+E:\ProjectCSharp\C4_GiaiThuatRSA\C4_GiaiThuatRSA\obj\Debug\C4_GiaiThuatRSA.exe
+E:\ProjectCSharp\C4_GiaiThuatRSA\C4_GiaiThuatRSA\obj\Debug\C4_GiaiThuatRSA.pdb
+E:\ProjectCSharp\C4_GiaiThuatRSA\C4_GiaiThuatRSA\obj\Debug\C4_GiaiThuatRSA.csprojResolveAssemblyReference.cache
+E:\ProjectCSharp\BTNHOM_ATBM\C4_GiaiThuatRSA\bin\Debug\C4_GiaiThuatRSA.exe.config
+E:\ProjectCSharp\BTNHOM_ATBM\C4_GiaiThuatRSA\obj\Debug\C4_GiaiThuatRSA.exe
+E:\ProjectCSharp\BTNHOM_ATBM\C4_GiaiThuatRSA\obj\Debug\C4_GiaiThuatRSA.pdb

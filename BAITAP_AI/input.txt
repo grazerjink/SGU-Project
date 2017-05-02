@@ -1,0 +1,12 @@
+10
+Paris Lisbon Madrid Viene Berlin Rome Hague Beme Brusels Luxemburg
+0 0 1 0 1 1 0 1 1 1
+0 0 1 0 0 0 0 0 0 0
+1 1 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 0 1 0 0
+1 0 0 1 0 0 1 1 1 1
+1 0 0 1 0 0 0 1 0 0
+0 0 0 0 1 0 0 0 1 0
+1 0 0 1 1 1 0 0 0 0
+1 0 0 0 1 0 1 0 0 1
+1 0 0 0 1 0 0 0 0 1

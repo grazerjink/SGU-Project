@@ -1,0 +1,181 @@
+#table-detail .checkbox
+{
+    background: #3875c6;
+    padding: 5px 5px;
+}
+#table-detail table
+{
+    border-color: white;
+}
+#table-detail td
+{
+    height: 30px;
+}
+.tieudesp1
+{
+    background: #3875c6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+.tieudesp2
+{
+    background: #3875c6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+.tieudesp3
+{
+    background: #3875c6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+.tieudesp4
+{
+    background: #3875c6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+.tieudesp5
+{
+    background: #3875c6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+.tieudesp6
+{
+    background: #3875c6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+#table-detail .masp
+{
+    background: #3875c6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+.checkbox1
+{
+    text-align: center;
+}
+.hinhanh1
+{
+    padding: 5px 5px;
+}
+.hinhanh1 img
+{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.sanpham1
+{
+    width: 100px;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 16px; 
+}
+.sanpham2
+{
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 16px; 
+}
+.sanpham3
+{
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 16px; 
+}
+.sanpham4
+{
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 16px; 
+}
+.sanpham5
+{
+    text-align: center;
+    width: 250;
+    padding: 5px 5px;
+    font-size: 16px; 
+}
+#themsp
+{
+    width: 750px;
+    background: #edeae5;
+    border: 1px dotted black;
+    border-radius: 6px;
+}
+#themsp > div
+{
+    background: #3875c6;
+    height: 30px;
+    line-height: 30px;
+    width: 690px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    width: 795px;
+}
+#themsp table
+{
+    margin-top: 10px
+}
+#themsp input
+{
+    width: 250px;
+    height: 25px;
+    padding-left: 8px;
+}
+#themsp textarea
+{
+    width: 250px;
+    height: 100px;
+}
+.tenmuc
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+#themsp td.nutbam
+{
+    padding-right: 4px;
+    text-align: left;
+}
+#themsp .nutbam input
+{
+    width: 130px;
+    padding-right: 6px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 2px solid #3875c6;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#themsp .nutbam input:hover
+{
+    background: #3875c6;
+    color: white;
+}

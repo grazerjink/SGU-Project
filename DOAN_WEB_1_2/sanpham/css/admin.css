@@ -1,0 +1,146 @@
+#tieude
+{
+    float: left;
+    height: 40px;
+    width: 950px;
+    padding-left: 5px;
+}
+#tieude ul li
+{
+    height: 38px;
+    float: left;
+    border-left: 1px dotted white;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#tieude ul li a
+{
+    padding:7px 30px 7px 30px;
+}
+#tieude ul li a:hover
+{
+    background: white;
+    color: #3875c6;
+}
+#tieude ul li.them 
+{
+    width: 150px;
+}
+#tieude ul li a
+{
+    color: white;
+}
+#tieude ul li.donhang
+{
+    width: 146px;
+}
+#tieude ul li.thongke
+{
+    width: 144px;
+}
+#tieude ul li.thanhvien
+{
+    width: 160px;
+    border-right: 1px dotted white;
+}
+#quantri
+{
+    float: right;
+    height: 30px;
+    width: 170px;
+    line-height: 30px;
+    background: #edeae5;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#quantri img
+{
+    float: left;
+    margin-top : 5px;
+    margin-left: 5px;
+}
+#username
+{
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 25px;
+    float: left;
+    line-height: 25px;
+}
+#right-center2
+{
+    width: 958px;
+    margin-left:10px;
+    margin-bottom: 55px;
+    border-left: 2px solid #3875c6;
+}
+.bieudo
+{
+    padding-left: 10px;
+    background: #3875c6;
+    width: 850px;
+    height: 30px;
+    line-height: 30px;
+}
+.bieudo lable
+{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.chitiet
+{
+    background: #edeae5;
+    width: 860px;
+    height: 130px;
+    padding-top: 30px
+}
+.chitiet table
+{
+    border: 5px solid black;
+}
+.chitiet tr td
+{
+    padding: 10px 10px;
+    background: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.chitiet2
+{
+    background: #edeae5;
+    width: 860px;
+    height: 160px;
+    padding-top: 30px
+}
+.cmt
+{
+    width: 800px;
+    height: 40px;
+    border: 0xp;
+    border-radius: 5px;
+    background: white;
+    padding-top: 10px;
+}
+.p1
+{
+    padding-top: 5px;
+    padding-left: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.p2
+{
+    padding-right: 10px;
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+}

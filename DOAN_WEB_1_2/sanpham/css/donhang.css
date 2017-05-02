@@ -1,0 +1,58 @@
+#table-detail .checkbox
+{
+    background: #3875c6;
+    padding: 5px 5px;
+}
+#table-detail table
+{
+    border-color: white;
+}
+#table-detail td
+{
+    height: 30px;
+}
+.tieudesp
+{
+    background: #3875c6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 5px;
+}
+.checkbox1
+{
+    text-align: center;
+}
+.noidung
+{
+    text-align: center;
+    padding: 4px 4px;
+}
+#chucnang
+{
+    height: 25px;
+    width: 690px;
+    margin-top: 20px;
+    text-align: right;
+}
+#chucnang select
+{
+    height: 26px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+#chucnang a
+{
+    padding: 3px 4px;
+    margin-left: 8px;
+    border: 2px solid #3875c6;
+    border-radius: 6px;
+    color: black;
+}
+#chucnang a:hover
+{
+    background: #3875c6;
+    color: white;
+}

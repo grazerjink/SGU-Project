@@ -1,0 +1,281 @@
+.tt-ctgh 
+{
+    width:745px; 
+    height:auto; 
+    float:left;
+    margin-top: 35px;
+    margin-left: 100px;
+    box-shadow: -20px 20px 5px #888888;
+}
+.tt-ctgh > ul 
+{ 
+    list-style:none;
+}
+.tt-ctgh > ul > li 
+{ 
+    float:left; 
+    background:#3875c6;
+}
+.tt-ctgh > ul > li > p 
+{ 
+    text-align:center; 
+    padding:10px 0 10px 0; 
+    color:white; 
+    font-weight:bold;
+}
+.tt-ctgh > ul > li.sothutu 
+{ 
+    width:40px; 
+    float:left; 
+    border-right:1px dotted white;
+}
+.tt-ctgh > ul > li.tensp 
+{ 
+    width:299px; 
+    float:left; 
+    border-right:1px dotted white;
+}
+.tt-ctgh > ul > li.masp 
+{ 
+    width:139px; 
+    float:left;
+    border-right:1px dotted white;
+}
+.tt-ctgh > ul > li.sluong 
+{ 
+    width:70px; 
+    float:left; 
+    border-right:1px dotted white;
+}
+.tt-ctgh > ul > li.gtien 
+{ 
+    width:130px; 
+    float:left; 
+    border-right:1px dotted white;
+}
+.tt-ctgh > ul > li.ttien 
+{ 
+    width:159px; 
+    float:left; 
+    border-right:1px dotted white;
+}
+.tt-ctgh > ul > li.xoasp 
+{ 
+    width:40px; 
+    float:left;
+}
+
+.cc-ctgh 
+{ 
+    width:750px; 
+    height:auto; 
+    float:left;
+    margin-left: 100px;  
+    box-shadow: -20px 20px 5px #888888;
+}
+.yeucau 
+{ 
+    width:743px; 
+    height:50px; 
+    float:left;
+    line-height: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    background: lightgray;
+}
+.dong-chitiet 
+{ 
+    width:743px; 
+    height:auto; 
+    float:left;
+}
+.dong-chitiet > ul 
+{ 
+    list-style:none;
+}
+.dong-chitiet > ul > li 
+{ 
+    float:left; 
+    border-bottom:1px dotted #ccc; 
+    height:50px;
+}
+.dong-chitiet > ul > li.double 
+{ 
+    float:left; 
+    border-bottom:1px dotted #ccc; 
+    height:80px;
+}
+
+.dong-chitiet > ul > li > p 
+{ 
+    padding:5px 0 5px 0; 
+    color:#333; 
+    display: block; 
+    line-height:30px; 
+    padding:10px;
+}
+.dong-chitiet > ul > li > a 
+{ 
+    text-align:center; 
+    padding:5px 0 5px 0; 
+    color:#333; 
+    display: block; 
+    line-height:30px; 
+    padding:10px; 
+    text-decoration:underline;
+}
+.dong-chitiet > ul > li > span 
+{ 
+    text-align:center; 
+    padding:5px 0 5px 0; 
+    color:#900; 
+    display: block; 
+    line-height:30px; 
+    padding:10px;
+}
+.dong-chitiet > ul > li.sothutu 
+{ 
+    width:40px; 
+    float:left; 
+    background:#f9f9f9; 
+    border-right:1px dotted #ccc;
+}
+.dong-chitiet > ul > li.tensp 
+{ 
+    width:299px; 
+    float:left; 
+    background:#f9f9f9; 
+    border-right:1px dotted #ccc;
+}
+.dong-chitiet > ul > li.masp 
+{ 
+    width:139px; 
+    float:left; 
+    background:#f9f9f9; 
+    border-right:1px dotted #ccc;
+}
+.dong-chitiet > ul > li.sluong 
+{ 
+    width:70px; 
+    float:left; 
+    background:#f9f9f9; 
+    border-right:1px dotted #ccc;
+}
+.dong-chitiet > ul > li.gtien 
+{ 
+    width:130px; 
+    float:left; 
+    background:#f9f9f9; 
+    border-right:1px dotted #ccc;
+}
+.dong-chitiet > ul > li.ttien 
+{ 
+    width:159px; 
+    float:left; 
+    background:#f9f9f9; 
+    border-right:1px dotted #ccc;
+}
+.dong-chitiet > ul > li.xoasp 
+{ 
+    width:40px; 
+    float:left; 
+    background:#f9f9f9;
+}
+
+.dong-chitiet > ul > li.hinhanh > img 
+{ 
+    width:80px; 
+    height:auto; 
+    margin:9px 0 0 9px; 
+    border:1px solid white;
+}
+.dong-chitiet > ul > li.xoasp > a > img 
+{ 
+    margin-top:5px;
+}
+.dong-chitiet > ul > li.soluong > a 
+{ 
+    margin-top:28px;
+}
+
+.tongtientinh 
+{ 
+    width:743px; 
+    height:auto; 
+    float:left; 
+    background:#3875c6;
+}
+.tongtientinh > ul 
+{ 
+    list-style:none;
+}
+.tongtientinh > ul > li 
+{ 
+    float:left;
+}
+.tongtientinh > ul > li > p 
+{ 
+    display:block; 
+    padding:10px 0 10px 10px; 
+    color:white; 
+    font-weight:bold;
+}
+.tongtientinh > ul > li > span 
+{ 
+    display:block; 
+    padding:10px 0 10px 0; 
+    text-align:center; 
+    color:white; 
+    font-weight:bold;
+}
+.tongtientinh > ul > li.tttt 
+{ 
+    width:300px; 
+    height:auto; 
+    float:left;
+}
+.tongtientinh > ul > li.cccc 
+{ 
+    width:160px; 
+    height:auto; 
+    float:left; 
+    color:gainsboro;
+    margin-left:250px;
+}
+
+.nutnut 
+{ 
+    width:750px; 
+    height:auto; 
+    float:left; 
+    margin-top:10px;
+}
+.nutnut > ul 
+{ 
+    list-style:none;
+}
+.nutnut > ul > li 
+{ 
+    height:33px;
+}
+.nutnut > ul > li.l_in
+{ 
+    width:45px; 
+    height:44px;
+    margin-left: 30px;
+    float:left;
+}
+.nutnut > ul > li.r_in
+{ 
+    width:105px; 
+    height:40px;
+    
+    float:right;
+}
+.nutnut > ul > li > input
+{
+    margin-top: 3px;
+    padding: 4px;
+    height: 30px;
+}
