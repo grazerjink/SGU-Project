@@ -7,3 +7,12 @@ E:\ProjectCSharp\QLKS\BUS\bin\Debug\EntityFramework.xml
 E:\ProjectCSharp\QLKS\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 E:\ProjectCSharp\QLKS\BUS\obj\Debug\BUS.dll
 E:\ProjectCSharp\QLKS\BUS\obj\Debug\BUS.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\bin\Debug\BUS.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\bin\Debug\BUS.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\bin\Debug\DAO.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\bin\Debug\EntityFramework.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\bin\Debug\DAO.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\bin\Debug\EntityFramework.xml
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\obj\Debug\BUS.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\BUS\obj\Debug\BUS.pdb

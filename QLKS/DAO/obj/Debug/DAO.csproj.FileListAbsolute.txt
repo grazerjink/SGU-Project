@@ -6,3 +6,11 @@ E:\ProjectCSharp\QLKS\DAO\bin\Debug\EntityFramework.xml
 E:\ProjectCSharp\QLKS\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 E:\ProjectCSharp\QLKS\DAO\obj\Debug\DAO.dll
 E:\ProjectCSharp\QLKS\DAO\obj\Debug\DAO.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\DAO\bin\Debug\DAO.dll.config
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\DAO\bin\Debug\DAO.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\DAO\bin\Debug\DAO.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\DAO\bin\Debug\EntityFramework.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\DAO\bin\Debug\EntityFramework.xml
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\DAO\obj\Debug\DAO.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\DAO\obj\Debug\DAO.pdb

@@ -69,7 +69,7 @@ namespace DAO
             {
                 if (trangthai != null)
                     return (from p in entities.phieuthues
-                            where p.ngaydi.Equals(now)
+                            where p.ngaydi.Equals(now) && !p.trangthai.Equals("Đã thanh toán")
                             select new
                             {
                                 maphieuthue = p.maphieuthue,
@@ -84,6 +84,7 @@ namespace DAO
                             }).ToList();
                 else
                     return (from p in entities.phieuthues
+                            where !p.trangthai.Equals("Đã thanh toán")
                             select new
                             {
                                 maphieuthue = p.maphieuthue,
@@ -143,15 +144,19 @@ namespace DAO
                 {
                     entities.khachhangs.Add((khachhang)t);
                 }
-
+                else if (t.GetType().Equals(typeof(sudungdichvu)))
+                {
+                    entities.sudungdichvus.Add((sudungdichvu)t);
+                }
                 entities.SaveChanges();
                 return true;
             }
-            catch
+            catch (Exception e)
             {
                 return false;
             }
         }
+
         public bool xoa(object t)
         {
             try
@@ -180,6 +185,11 @@ namespace DAO
                 {
                     var q = entities.khachhangs.Where(p => p.cmnd == ((khachhang)t).cmnd).First();
                     entities.khachhangs.Remove(q);
+                }
+                else if (t.GetType().Equals(typeof(sudungdichvu)))
+                {
+                    var q = entities.sudungdichvus.Where(dv => dv.stt == ((sudungdichvu)t).stt).First();
+                    entities.sudungdichvus.Remove(q);
                 }
                 entities.SaveChanges();
                 return true;
@@ -294,6 +304,19 @@ namespace DAO
             }
         }
 
+        // Phieu dat
+        public void huyDatPhongQuaHan()
+        {
+            int day = DateTime.Now.Day;
+            int month = DateTime.Now.Month;
+            int year = DateTime.Now.Year;
+            Console.WriteLine("Ngay " + day + " thang " + month + " year " + year);
+            entities.Database.ExecuteSqlCommand("update phieudat set trangthai = N'Đã hủy' where MONTH(CONVERT(datetime, ngaydenthue, 103)) <= {1} and YEAR(CONVERT(datetime, ngaydenthue, 103)) <= {2} and DAY(CONVERT(datetime, ngaydenthue, 103)) < {0} and trangthai = N'Đã đặt'", day, month, year);
+            entities.Database.ExecuteSqlCommand("update phong set trangthai = N'Sẵn sàng' where phong in (select sophong from phieudat where trangthai = N'Đã hủy')");
+            entities.Database.ExecuteSqlCommand("update phong set trangthai = N'Đã đặt' where phong in(select sophong from phieudat where trangthai = N'Đã đặt')");
+            entities.SaveChanges();
+        }
+
         // Phieu thue
         public phieuthue layPhieuThue(string maphieu)
         {
@@ -314,6 +337,18 @@ namespace DAO
                 return true;
             }
             catch { return false; }
+        }
+        public bool kiemTraPhong(string phong)
+        {
+            var q = entities.phongs.Where(p => p.phong1.Equals(phong));
+            if(q.Count() > 0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
 
         // Thong ke hoa don
@@ -365,23 +400,7 @@ namespace DAO
         {
             return entities.dichvus.Where(d => d.tendichvu.Equals(tendichvu)).First().gia;
         }
+        
 
-        public bool themDichVu(List<sudungdichvu> list)
-        {
-            try
-            {
-                foreach(sudungdichvu dv in list)
-                {
-                    entities.sudungdichvus.Add(dv);
-                }
-                entities.SaveChanges();
-                return true;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message.ToString());
-                return false;
-            }
-        }
     }
 }

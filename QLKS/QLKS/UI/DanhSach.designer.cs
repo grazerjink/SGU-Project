@@ -306,7 +306,7 @@ namespace QLKS.UI
             // 
             this.mnuThemDichVu.Image = global::QLKS.Properties.Resources.service_icon;
             this.mnuThemDichVu.Name = "mnuThemDichVu";
-            this.mnuThemDichVu.Size = new System.Drawing.Size(152, 22);
+            this.mnuThemDichVu.Size = new System.Drawing.Size(147, 22);
             this.mnuThemDichVu.Text = "Thêm dịch vụ";
             this.mnuThemDichVu.Click += new System.EventHandler(this.themDichVu);
             // 
@@ -314,7 +314,7 @@ namespace QLKS.UI
             // 
             this.mnuTraPhong.Image = global::QLKS.Properties.Resources.bill_icon;
             this.mnuTraPhong.Name = "mnuTraPhong";
-            this.mnuTraPhong.Size = new System.Drawing.Size(152, 22);
+            this.mnuTraPhong.Size = new System.Drawing.Size(147, 22);
             this.mnuTraPhong.Text = "Trả phòng";
             this.mnuTraPhong.Click += new System.EventHandler(this.trangThaiThanhToan);
             // 

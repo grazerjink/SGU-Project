@@ -15,6 +15,10 @@ namespace DAO
     public partial class sudungdichvu
     {
         public sudungdichvu() { }
+        public sudungdichvu(int stt)
+        {
+            this.stt = stt;
+        }
         public sudungdichvu(string maphieuthue, string tendichvu, string soluong, string tongtien)
         {
             this.maphieuthue = maphieuthue;

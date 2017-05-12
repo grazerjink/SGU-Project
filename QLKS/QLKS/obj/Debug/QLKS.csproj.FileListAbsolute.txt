@@ -23,3 +23,28 @@ E:\ProjectCSharp\QLKS\QLKS\obj\Debug\QLKS.UI.TraPhong.resources
 E:\ProjectCSharp\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
 E:\ProjectCSharp\QLKS\QLKS\obj\Debug\QLKS.exe
 E:\ProjectCSharp\QLKS\QLKS\obj\Debug\QLKS.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\QLKS.exe.config
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.exe
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\QLKS.exe
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\QLKS.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\BUS.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\DAO.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\EntityFramework.dll
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\BUS.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\DAO.pdb
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\bin\Debug\EntityFramework.xml
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.csprojResolveAssemblyReference.cache
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.CauHinh.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.DangNhap.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.DanhSach.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.DatPhong.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.DoiMatKhau.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.KhoiPhuc.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.ThemDichVu.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.ThongKe.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.ThuePhong.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.TinhTrang.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.UI.TraPhong.resources
+G:\Desktop\TRY HARD\PTTKHDT\HĐT spare\demo\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache

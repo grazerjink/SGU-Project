@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblMaPhieuThue = new System.Windows.Forms.Label();
             this.lblPhong = new System.Windows.Forms.Label();
             this.txtMaPhieuThue = new System.Windows.Forms.TextBox();
@@ -38,10 +39,14 @@
             this.lblSoLuong = new System.Windows.Forms.Label();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.btnChon = new System.Windows.Forms.Button();
-            this.soluong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ctmTuyChon = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mnuXoa = new System.Windows.Forms.ToolStripMenuItem();
+            this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tendichvu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.soluong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.tblSuDungDichVu)).BeginInit();
+            this.ctmTuyChon.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblMaPhieuThue
@@ -100,6 +105,7 @@
             this.tblSuDungDichVu.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.tblSuDungDichVu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tblSuDungDichVu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.stt,
             this.tendichvu,
             this.gia,
             this.soluong});
@@ -110,6 +116,7 @@
             this.tblSuDungDichVu.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.tblSuDungDichVu.Size = new System.Drawing.Size(276, 267);
             this.tblSuDungDichVu.TabIndex = 4;
+            this.tblSuDungDichVu.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.chonTuyChon);
             // 
             // btnOK
             // 
@@ -120,7 +127,7 @@
             this.btnOK.TabIndex = 5;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.Click += new System.EventHandler(this.themDichVu);
+            this.btnOK.Click += new System.EventHandler(this.xacNhan);
             // 
             // lblSoLuong
             // 
@@ -149,22 +156,43 @@
             this.btnChon.UseVisualStyleBackColor = true;
             this.btnChon.Click += new System.EventHandler(this.chonDichVu);
             // 
-            // soluong
+            // ctmTuyChon
             // 
-            this.soluong.FillWeight = 80F;
-            this.soluong.HeaderText = "Số lượng";
-            this.soluong.Name = "soluong";
+            this.ctmTuyChon.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuXoa});
+            this.ctmTuyChon.Name = "ctmTuyChon";
+            this.ctmTuyChon.Size = new System.Drawing.Size(95, 26);
             // 
-            // gia
+            // mnuXoa
             // 
-            this.gia.HeaderText = "Đơn giá";
-            this.gia.Name = "gia";
+            this.mnuXoa.Image = global::QLKS.Properties.Resources.cancel_ic;
+            this.mnuXoa.Name = "mnuXoa";
+            this.mnuXoa.Size = new System.Drawing.Size(94, 22);
+            this.mnuXoa.Text = "Xóa";
+            this.mnuXoa.Click += new System.EventHandler(this.xoaDichVu);
+            // 
+            // stt
+            // 
+            this.stt.HeaderText = "STT";
+            this.stt.Name = "stt";
+            this.stt.Visible = false;
             // 
             // tendichvu
             // 
             this.tendichvu.FillWeight = 120F;
             this.tendichvu.HeaderText = "Tên dịch vụ";
             this.tendichvu.Name = "tendichvu";
+            // 
+            // gia
+            // 
+            this.gia.HeaderText = "Đơn giá";
+            this.gia.Name = "gia";
+            // 
+            // soluong
+            // 
+            this.soluong.FillWeight = 80F;
+            this.soluong.HeaderText = "Số lượng";
+            this.soluong.Name = "soluong";
             // 
             // ThemDichVu
             // 
@@ -187,6 +215,7 @@
             this.Text = "Sử dụng dịch vụ";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.thoatChucNang);
             ((System.ComponentModel.ISupportInitialize)(this.tblSuDungDichVu)).EndInit();
+            this.ctmTuyChon.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,6 +233,9 @@
         private System.Windows.Forms.Label lblSoLuong;
         private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.Button btnChon;
+        private System.Windows.Forms.ContextMenuStrip ctmTuyChon;
+        private System.Windows.Forms.ToolStripMenuItem mnuXoa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stt;
         private System.Windows.Forms.DataGridViewTextBoxColumn tendichvu;
         private System.Windows.Forms.DataGridViewTextBoxColumn gia;
         private System.Windows.Forms.DataGridViewTextBoxColumn soluong;

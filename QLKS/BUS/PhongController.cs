@@ -29,9 +29,9 @@ namespace BUS
             }
             catch { return false; }
         }
-        public bool themPhong(string phong1, string loaiphong, string tienphong, string trangthai)
+        public bool themPhong(string phong, string loaiphong, string tienphong, string trangthai)
         {
-            if (db.them(new phong(phong1, loaiphong, tienphong, trangthai)))
+            if (db.them(new phong(phong, loaiphong, tienphong, trangthai)))
             {
                 return true;
             }
@@ -40,11 +40,11 @@ namespace BUS
                 return false;
             }
         }
-        public bool xoaPhong(string phong1)
+        public bool xoaPhong(string phong)
         {
             try
             {
-                db.xoa(new phong(phong1));
+                db.xoa(new phong(phong));
                 return true;
             }
             catch
@@ -52,5 +52,17 @@ namespace BUS
                 return false;
             }
         }
+        public bool kiemTraPhong(string phong)
+        {
+            if(db.kiemTraPhong(phong))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
     }
 }

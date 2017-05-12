@@ -28,9 +28,9 @@ namespace QLKS.UI
             //Regex pattern = new Regex(@"[a-zA-Z0-9_\.]+@[a-zA-Z]+\.[a-zA-Z]+(\.[a-zA-Z]+)*");
             //Regex pattern2 = new Regex(@"[0]+[1,9]+[0-9]+$");
             string thongtin = txtEmail.Text.Trim();
-            if (Regex.IsMatch(thongtin, @"[\d]"))
+            if (Regex.IsMatch(thongtin, @"^[\d]+$"))
             {
-                if (Regex.IsMatch(thongtin, @"[\d]{10,11}"))
+                if (Regex.IsMatch(thongtin, @"^[\d]{10,11}$"))
                 {
                     lblError.Text = "";
                     manv = tk.kiemTraThongTinDangKy(thongtin);
@@ -51,7 +51,7 @@ namespace QLKS.UI
             }
             else
             {
-                if (Regex.IsMatch(thongtin, @"[a-zA-Z0-9_\.]+@[a-zA-Z]+\.[a-zA-Z]+(\.[a-zA-Z]+)*"))
+                if (Regex.IsMatch(thongtin, @"^[a-zA-Z0-9_\.]+@[a-zA-Z]+\.[a-zA-Z]+(\.[a-zA-Z]+)*$"))
                 {
                     lblError.Text = "";
                     manv = tk.kiemTraThongTinDangKy(thongtin);

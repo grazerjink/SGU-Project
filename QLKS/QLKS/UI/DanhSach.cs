@@ -26,7 +26,7 @@ namespace QLKS.UI
             tp = new ThuePhongController();
             p = new PhongController();
             tk = new TaiKhoanController();
-            
+            dp.huyDatPhongQuaHan();
             hienThiThongTin();
         }
 
@@ -58,6 +58,7 @@ namespace QLKS.UI
         private void thoatChuongTrinh(object sender, FormClosedEventArgs e)
         {
             // Tắt luôn chương trình
+            
             dn.Close();
         }
         private void datPhong(object sender, EventArgs e)
@@ -88,7 +89,8 @@ namespace QLKS.UI
         {
             // Set trạng thái đã nhận trong ds phiếu đặt
             string dk1 = tblDatPhong.CurrentRow.Cells[8].Value.ToString();
-            bool dk2 = tblDatPhong.CurrentRow.Cells[6].Value.ToString().Equals(DateTime.Now.ToString("dd/MM/yyyy"));
+            string ngayhientai = DateTime.Now.ToString("dd/MM/yyyy");
+            bool dk2 = tblDatPhong.CurrentRow.Cells[6].Value.ToString().Trim().Equals(ngayhientai);
             if (dk1.Equals("Đã đặt") && dk2 == true)
             {
                 string maphieudat = tblDatPhong.CurrentRow.Cells[0].Value.ToString();
@@ -173,13 +175,11 @@ namespace QLKS.UI
             if (cbxDangThue.Checked) tblThuePhong.DataSource = tp.danhSachPhieuThue("");
             else tblThuePhong.DataSource = tp.danhSachPhieuThue(null);
         }
-
         private void chonHienThiDanhSachPhongDatHienTai(object sender, EventArgs e)
         {
             if (cbxDaDat.Checked) tblDatPhong.DataSource = dp.danhSachPhieuDat("");
             else tblDatPhong.DataSource = dp.danhSachPhieuDat(null);
         }
-
         private void themDichVu(object sender, EventArgs e)
         {            
             if (tblThuePhong.CurrentRow.Cells[8].Value.ToString().Equals("Đang thuê"))

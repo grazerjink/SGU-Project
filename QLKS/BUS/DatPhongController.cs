@@ -44,5 +44,10 @@ namespace BUS
             else
                 return false;
         }
+
+        public void huyDatPhongQuaHan()
+        {
+            db.huyDatPhongQuaHan();
+        }
     }
 }

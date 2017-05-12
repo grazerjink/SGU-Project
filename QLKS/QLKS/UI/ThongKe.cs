@@ -29,6 +29,9 @@ namespace QLKS.UI
             int thang = int.Parse(cbxtkthangThang.SelectedItem.ToString());
             int nam = int.Parse(cbxtkthangNam.SelectedItem.ToString());
             lblChiThu.Text = "Tổng chi thu tháng: ";
+            lblTongChiThu.Text = null;
+            lblTongTienDichVu.Text = null;
+            lblTongThuTienPhong.Text = null;
             tblThongKe.DataSource = hd.thongKeThang(thang, nam);
             pnlThang.Show();
             pnlNam.Hide();
@@ -57,6 +60,9 @@ namespace QLKS.UI
                 int nam = int.Parse(cbxtkthangNam.SelectedItem.ToString());
                 tblThongKe.DataSource = hd.thongKeThang(thang, nam);
                 lblChiThu.Text = "Tổng chi thu tháng: ";
+                lblTongChiThu.Text = null;
+                lblTongTienDichVu.Text = null;
+                lblTongThuTienPhong.Text = null;
             }
         }
         private void chonThongKeQuy(object sender, EventArgs e)
@@ -75,6 +81,9 @@ namespace QLKS.UI
                 int nam = int.Parse(cbxtkthangNam.SelectedItem.ToString());
                 tblThongKe.DataSource = hd.thongKeThang(thang, nam);
                 lblChiThu.Text = "Tổng chi thu quý: ";
+                lblTongChiThu.Text = null;
+                lblTongTienDichVu.Text = null;
+                lblTongThuTienPhong.Text = null;
             }
         }
         private void chongThongKeNam(object sender, EventArgs e)
@@ -93,6 +102,9 @@ namespace QLKS.UI
                 int nam = int.Parse(cbxtkthangNam.SelectedItem.ToString());
                 tblThongKe.DataSource = hd.thongKeThang(thang, nam);
                 lblChiThu.Text = "Tổng chi thu năm: ";
+                lblTongChiThu.Text = null;
+                lblTongTienDichVu.Text = null;
+                lblTongThuTienPhong.Text = null;
             }
         }
         private void thongKeChiThu(object sender, EventArgs e)

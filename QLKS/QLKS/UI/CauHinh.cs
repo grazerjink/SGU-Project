@@ -89,8 +89,9 @@ namespace QLKS.UI
             {
                 errorPhong.Clear();
                 //kiem tra du lieu dau vao
-                if (p.themPhong(sophong, loaiphong, tienphong, trangthai))
+                if (p.kiemTraPhong(sophong))
                 {
+                    p.themPhong(sophong, loaiphong, tienphong, trangthai);
                     errorPhong.Clear();
                     MessageBox.Show("Thêm thành công.", "Thông báo");
                     hienThiDanhSach();
@@ -104,7 +105,7 @@ namespace QLKS.UI
                 }
             } else
             {
-                errorPhong.SetError(txtPhong, "Phòng nhập không đúng quy tắc (hợp lệ khi: 3 chữ số phải khác 0)");
+                errorPhong.SetError(txtPhong, "Phòng nhập không đúng quy tắc số phòng từ 101 - 999");
             }
         }
 
